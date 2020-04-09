@@ -1,0 +1,5 @@
+server:
+  port: 8009
+spring:
+  rabbitmq:
+    host: 118.89.190.240

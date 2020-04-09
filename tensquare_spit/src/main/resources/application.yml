@@ -1,0 +1,12 @@
+server:
+  port: 9006
+spring:
+  application:
+    name: tensquare-split
+  data:
+    mongodb:
+      host: 118.89.190.240
+      database: spitdb
+  redis:
+    host: 118.89.190.240
+    password: licong
