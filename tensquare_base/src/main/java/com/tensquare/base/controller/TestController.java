@@ -22,5 +22,4 @@ public class TestController {
     public String ip() {
         return ip;
     }
-
 }

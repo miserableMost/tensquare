@@ -203,7 +203,7 @@ public class UserService {
         map.put("mobile",mobile);
         map.put("checkCode",checkCode);
          //给用户发一份
-        //rabbitTemplate.convertAndSend("sms",map);
+        rabbitTemplate.convertAndSend("sms",map);
         //在控制台显示一份[方便测试]
         System.out.println("验证码为: " + checkCode);
     }
